@@ -1,0 +1,196 @@
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 120px;
+}
+
+.jumbotron {
+	height: 500px;
+	background-image: url(../img/kampus2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -120px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.jumbotron img {
+	width: 200px;
+	
+}
+
+.jumbotron h1, .jumbotron p {
+	color:yellow;
+	text-shadow: 1px 1px 2px rgb(255, 3, 3);
+}
+
+hr { 
+	
+	border-top: 3px solid #999;
+}
+
+section {
+	min-height: 600px;
+}
+
+.kiri, .kanan {
+	opacity: 0;
+	transform: translate(-50px, 0);
+	transition: 1.2s;
+}
+
+.kanan {
+	transform: translate(50px, 0);
+}
+
+.kiri-go, .kanan-go {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+.portfolio {
+	background-image: linear-gradient(to left, yellow, orange);
+	text-align: left;
+	padding-bottom: 0;
+}
+
+.portfolio  p {
+	color: black;
+}
+
+.portfolio .thumbnail {
+	opacity: 0;
+	transform: translate(0,-40px);
+	transition: .3s;
+}
+
+.portfolio .thumbnail.muncul {
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portfolio h2 {
+	color: white;
+	background-color: red;
+	height: 50px;
+}
+
+.contact {
+	min-height: 800px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+}
+
+footer p {
+	color: #aaa;
+}
+
+footer p i {
+	color: salmon;
+}
+
+footer a i {
+	color: pink;
+}
+
+.about {
+	background-image: url(../img/km.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.about h1 {
+	height: 70px;	
+}
+
+.about h2 {
+	position: relative;
+	background-color: yellow;
+	height: 50px;
+	padding-left: 20px;
+	width: 100%;
+}
+
+section img {
+	width: 300px;
+}
+
+.kip {
+	border-radius: 10%;
+	background-color: yellow;
+}
+
+.kip h1 {
+	color: black;
+	background-image: linear-gradient(to right, red, orange);
+}
+
+.kip hr {
+	width: 470px;
+	margin-left: 0;
+}
+
+.fakultas h1 {
+	background-image: linear-gradient(to right, red, orange);
+	color: white;
+	height: 50px;
+	width: 500px;
+}
+
+.fakultas h2 {
+	background-image: linear-gradient(to left, yellow,orange);
+	height: 40px;
+	width: 400px;
+}
+
+.pendaftaran {
+	background-color: snow;
+}
+
+.pendaftaran h1 {
+	width: 450px;
+	background-image: linear-gradient(to right, red, orange);
+	color: white;
+}
+
+.pendaftaran h2 {
+	width: 400px;
+	color: white;
+	background-image: linear-gradient(to right, red, orange);
+}
+
+.navbar {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.dropdown-menu {
+	background-color: black;
+}
+
+.dropdown-menu a {
+	color: rgb(206, 204, 204);
+}
+
+.sambutan h4, h3 {
+	margin-left: 2%;
+}
+
+.sambutan {
+	background-color: silver;
+}
+
+.fasilitas p {
+	font-weight: bold;
+}
